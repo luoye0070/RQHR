@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<!DOCTYPE hibernate-mapping PUBLIC  
+        '-//Hibernate/Hibernate Mapping DTD 3.0//EN'  
+        'http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd'>  
+<hibernate-mapping>  
+    <class name="com.rqhr.data.hbm.EmployeeModel" table="employee">  
+        <id name="id">  
+            <generator class="identity"/>  
+        </id>  
+        <property name="userName" column="user_name" type="java.lang.String"></property>  
+        <property name="passWord" column="pass_word" type="java.lang.String"></property>  
+        <property name="phoneSn" column="phone_sn" type="java.lang.String"></property>  
+    </class>  
+</hibernate-mapping>  
